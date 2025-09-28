@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
         - name: flask-container
-          image: ghcr.io/fy2sysnotify/flask-app:master-02ccd63d
+          image: ghcr.io/fy2sysnotify/flask-app:master-35e1f1e4
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80
